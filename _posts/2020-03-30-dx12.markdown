@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Continuous integration"
+date:   2020-03-30 12:59:22 +0800
+categories: diary
+---
+# dx12
+[directx-12-ultimate-getting-started-guide](https://devblogs.microsoft.com/directx/directx-12-ultimate-getting-started-guide/)    
+[use-vhd-to-accelerate-directx-12-development](https://devblogs.microsoft.com/directx/use-vhd-to-accelerate-directx-12-development/)
