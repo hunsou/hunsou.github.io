@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "code"
+date:   2020-05-19 09:48:22 +0800
+categories: diary
+---
+# 171208.ino
+```
+int pin = 9;    
+unsigned long time = 0,old_time = 0;    
+unsigned long time_delay = 0;   
+unsigned long count = 0;    
+int x = 0 ;   
+void code()   
+{   
+  if((millis()-time_delay)>10 && (millis()-time_delay)<1000)    
+  {   
+  //count = millis()-time_delay;    
+  count ++ ;    
+  time_delay = millis();    
+  }else{    
+  //count=0;    
+  time_delay = millis();    
+  }   
+  delay(10);    
+}   
+void setup() {    
+  // put your setup code here, to run once:   
+Serial.begin(115200);   
+pinMode(2,INPUT_PULLUP);    
+//pinMode(2,INPUT);   
+int fff = 2;  // 可以是 1, 2, 3, 4, 5    
+TCCR1B = TCCR1B & 0xF8 | fff;     
+attachInterrupt(0,code,CHANGE);   
+}   
+void loop() {    
+  // put your main code here, to run repeatedly:    
+  time = millis();    
+  if(abs(time-old_time) >= 1000)    
+  {      
+   detachInterrupt(0);     
+   if(count != 0)   
+   {    
+   //x = (float)1000/count;   
+   x = count ;    
+   }    
+   else   
+   {    
+   x = 0 ;    
+   }    
+   Serial.println(x);   
+   x = map(x,0,10,0,255);   
+   if ( x >= 255)   
+   x = 255 ;    
+   Serial.println(x);     
+   analogWrite(pin,x);      
+   //delay(500);    
+   count = 0;   
+   attachInterrupt(0,code,CHANGE);    
+   old_time = millis();     
+  }   
+}   
+```
