@@ -1,9 +1,22 @@
 ---
 layout: post
-title:  "code"
-date:   2020-05-19 09:48:22 +0800
+title:  "Index"
+date:   2021-09-30 13:02:22 +0800
 categories: diary
 ---
+# 本地git服务器
+[gitlab](https://gitlab.com)    
+[gitea](https://gitea.io)    
+
+# CI-持续集成
+[travis-CI](https://travis-ci.com)    
+[appveyor](https://ci.appveyor.com)    
+[jenkins](https://jenkins.io)    
+
+# dx12
+[directx-12-ultimate-getting-started-guide](https://devblogs.microsoft.com/directx/directx-12-ultimate-getting-started-guide/)    
+[use-vhd-to-accelerate-directx-12-development](https://devblogs.microsoft.com/directx/use-vhd-to-accelerate-directx-12-development/)
+
 # 171208.ino
 ```
 int pin = 9;    
