@@ -13,7 +13,7 @@ categories: misc
 
 ## codepage
 
-https://www.cnblogs.com/liang123/p/6325681.html
+https://www.cnblogs.com/liang123/p/6325681.html  
 codepage=932 日文;  
 codepage=936 简体中文GBK;  
 codepage=949 韩文;  
@@ -47,7 +47,7 @@ Q: 腾讯旗下网站的很多URL都包含"cgi-bin"，是什么意思？他们�
 A:  
 1. 为了迷惑黑客
 2. 用c++程序生成页面返回
-3. 可能是c++、也可以是任何语言
+3. 可能是c++、也可以是任何语言  
 https://www.zhihu.com/question/21432096
 
 ## 磁液跳舞
