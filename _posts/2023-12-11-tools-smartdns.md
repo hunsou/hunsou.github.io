@@ -54,7 +54,7 @@ taskkill /f /im smartdns.exe
 ```
 
 
-检测服务有没有启动
+检测服务有没有启动  
 https://github.com/mokeyish/smartdns-rs/issues/161
 
 ```
@@ -86,7 +86,7 @@ Non-authoritative answer:
 whoami  name = smartdns
 ```
 
-配置文件测试
+配置文件测试  
 https://github.com/mokeyish/smartdns-rs/blob/main/tests/example/smartdns.conf
 
 ```test.conf
@@ -128,7 +128,7 @@ address /ads.example.com/#
 
 
 
-实现 SmartDNS 分组，让 DNS 解析内外完全分离
+实现 SmartDNS 分组，让 DNS 解析内外完全分离  
 https://www.right.com.cn/FORUM/forum.php?mod=viewthread&tid=4244241&page=1&simpletype=no
 
 https://www.right.com.cn/forum/thread-8233913-1-1.html

@@ -9,7 +9,7 @@ categories: Index
 
 ## 浏览器
 
-chrome下载
+chrome下载  
 https://www.google.cn/intl/en-US/chrome/?standalone=1&platform=win64  
 https://www.google.cn/intl/zh-CN/chrome/?standalone=1&platform=win64  
 chrome离线地址  

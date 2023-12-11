@@ -30,7 +30,7 @@ https://jdk.java.net/archive
 https://www.heidisql.com/  
 
 ## bandizip
-用来解压egg(ALZip), 7z不完全支持解压egg
+用来解压egg(ALZip), 7z不完全支持解压egg  
 https://www.bandisoft.com/bandizip/  
 
 ## forcebindip
