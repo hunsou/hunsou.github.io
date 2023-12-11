@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "code"
+date:   2023-12-11 16:11:35 +0800
+categories: code
+---
+
+# dx12
+[directx-12-ultimate-getting-started-guide](https://devblogs.microsoft.com/directx/directx-12-ultimate-getting-started-guide/)    
+[use-vhd-to-accelerate-directx-12-development](https://devblogs.microsoft.com/directx/use-vhd-to-accelerate-directx-12-development/)

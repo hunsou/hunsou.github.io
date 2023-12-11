@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "misc"
+date:   2023-12-11 16:37:56 +0800
+categories: misc
+---
+
+# 一些疑惑
+
+## payload
+病毒通常会做一些有害的或者恶性的动作。在病毒代码中实现这个功能的部分叫做“有效负载”（payload）。payload可以实现任何运行在受害者环境中的程序所能做的事情，并且能够执行动作包括破坏文件删除文件，向病毒的作者或者任意的接收者发送敏感信息，以及提供通向被感染计算机的后门。
+——— 摘自《决战恶意代码（美）斯考迪斯》P20
+
+## codepage
+
+https://www.cnblogs.com/liang123/p/6325681.html
+codepage=932 日文;  
+codepage=936 简体中文GBK;  
+codepage=949 韩文;  
+codepage=950 繁体中文BIG5  
+codepage=437 美国/加拿大英语  
+codepage=866 俄文  
+codepage=65001 unicode UFT-8  
+
+---
+最后一个65001，据个人理解，应该只是一个虚拟的映射表，实际只是一个算法而已。  
+
+## HiteVision(HT-K502UA) 投影控制
+
+1. 使用http(GET)  
+
+turn on
+```bat
+set host=192.168.8.108
+curl http://%host%/cgi-bin/webctrl.cgi.elf?&t:26,c:5,p:196614,v:0
+```
+turn off
+```bat
+set host=192.168.8.108
+curl http://%host%/cgi-bin/webctrl.cgi.elf?&t:26,c:5,p:196615,v:0
+```
+
+2. 使用pjlink  
+
+### cgi-bin
+Q: 腾讯旗下网站的很多URL都包含"cgi-bin"，是什么意思？他们后台用什么语言？  
+A:  
+1. 为了迷惑黑客
+2. 用c++程序生成页面返回
+3. 可能是c++、也可以是任何语言
+https://www.zhihu.com/question/21432096
+
+## 磁液跳舞
+https://m.163.com/v/video/VGGJTDPJA.html

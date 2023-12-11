@@ -1,0 +1,60 @@
+---
+layout: post
+title:  ""
+date:   2021-09-30 13:02:22 +0800
+categories: git repo
+---
+
+# git常用命令
+```
+git config -global core.longpaths true
+git config core.longpaths true
+```
+
+```
+ssh-keygen -t rsa -C "hunsou@msn.com"
+type .ssh\id_rsa.pub
+```
+
+
+# 本地git服务器
+[gitlab](https://gitlab.com)    
+[gitea](https://gitea.io)    
+[gogs](https://gog.io)    
+
+## 使用GitHub actions
+
+# CI-持续集成
+[travis-CI](https://travis-ci.com)    
+[appveyor](https://ci.appveyor.com)    
+[jenkins](https://jenkins.io)    
+
+## 自建gitlab actions
+
+sudo EXTERNAL_URL="http://192.168.217.132" apt-get install gitlab-jh
+
+curl -LJO https://gitlab-runner-downloads.s3.amazonaws.com/latest/deb/gitlab-runner_amd64.deb
+
+
+```
+docker login -u gitlab-ci-token incorrect username or password
+```
+```
+docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+```
+原因是docker的版本参数设置问题
+
+
+
+docker设置镜像
+```
+{
+        "registry-mirrors":["https://docker.mirrors.utsc.edu.cn" ]
+}
+```
+
+## 自建appveyor
+
+## 自建gitea actions
+
+## 自建jenkins

@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "tools"
+date:   2023-12-11 16:26:51 +0800
+categories: tools
+---
+
+# 一些好用的工具
+
+## notepad++
+https://github.com/notepad-plus-plus/notepad-plus-plus
+
+## sublime
+https://www.sublimetext.com/download  
+https://www.sublimemerge.com/download  
+
+## advancedinstaller
+https://www.advancedinstaller.com
+
+## Wub
+https://www.sordum.org/9470/windows-update-blocker-v1-8/  
+
+## RegToBat
+https://www.sordum.org/8478/reg-converter-v1-2/  
+
+## jdk
+https://jdk.java.net/archive  
+
+## HeidiSQL
+https://www.heidisql.com/  
+
+## bandizip
+用来解压egg(ALZip), 7z不完全支持解压egg
+https://www.bandisoft.com/bandizip/  
+
+## forcebindip
+https://r1ch.net/projects/forcebindip  
+
+## 图吧工具箱
+https://www.tbtool.cn/  
+
+## windows 激活
+rem https://github.com/massgravel/Microsoft-Activation-Scripts/releases  
+```bat
+powershell -command "irm https://massgrave.dev/get | iex"
+```
+
+## OCR
+https://github.com/PaddlePaddle/PaddleOCR  
+https://github.com/telppa/PaddleOCR-AutoHotkey  
+
+## 360驱动
+https://www.423down.com/9157.html#google_vignette  
+https://www.123pan.com/s/A6cA-smEJh  

@@ -1,24 +1,17 @@
 ---
 layout: post
-title:  "Index"
-date:   2021-09-30 13:02:22 +0800
-categories: diary
+title:  "Arduino Examples"
+date:   2023-12-11 16:13:00 +0800
+categories: arduino
 ---
-# 本地git服务器
-[gitlab](https://gitlab.com)    
-[gitea](https://gitea.io)    
 
-# CI-持续集成
-[travis-CI](https://travis-ci.com)    
-[appveyor](https://ci.appveyor.com)    
-[jenkins](https://jenkins.io)    
+# 2811灯带
+https://zhuanlan.zhihu.com/p/657979970
 
-# dx12
-[directx-12-ultimate-getting-started-guide](https://devblogs.microsoft.com/directx/directx-12-ultimate-getting-started-guide/)    
-[use-vhd-to-accelerate-directx-12-development](https://devblogs.microsoft.com/directx/use-vhd-to-accelerate-directx-12-development/)
+# CAS Modbus Scanner
 
-# 171208.ino
-```
+# 单车测速(//TODO 有干扰)
+```171208.ino
 int pin = 9;    
 unsigned long time = 0,old_time = 0;    
 unsigned long time_delay = 0;   
