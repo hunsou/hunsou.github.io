@@ -2,5 +2,5 @@
 layout: post
 title:  "dfo"
 date:   2023-12-11 16:31:33 +0800
-categories: games | dfo
+categories: [games, dfo]
 ---

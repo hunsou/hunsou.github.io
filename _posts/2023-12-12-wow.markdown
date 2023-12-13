@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "WOW"
+date:   2023-12-12 09:58:26 +0800
+categories: [games, maplestory]
+---
+
+# Client
+https://www.wowdl.net/fichiers/clients  
+https://www.wowdl.net/client/World-of-Warcraft-3.3.5a.12340-zhCN  
+https://us-download.wowdl.net/downloadFiles/Clients/  World-of-Warcraft-3.3.5a.12340-zhCN.zip  
+https://www.bilibili.com/read/cv21243898/  
+
+# Server (public-host)
+
+## N服 Nostalrius & 新N服 everlook
+https://everlook.org  
+https://cn.everlook-wow.net/  
+https://evlk.loning.net/Clisoft/Everlook-setup-1.0.34.exe  
+
+## 乌龟服 turtle服 turtle-wow
+https://turtle-wow.org/#/home  
+https://database.turtle-wow.org  
+https://turtle-wow.b-cdn.net/twmoa_1170.zip  
+https://cn.turtle-wow.org/  
+https://turtle-wow.b-cdn.net/twmoa_1170_cn.zip  
+
+# Server (self-host)
+
+Mangos,TC,SW(SunWell),AZ,AC 
+
+## MaNGOS
+https://github.com/mangos/MaNGOS  
+https://github.com/mangoszero/server  
+
+vmangos  
+https://github.com/vmangos/core  
+
+## AZ(azerothcore) 3.3.5a
+https://www.azerothcore.org/  
+https://www.azerothcore.org/wiki/installation  
+https://www.azerothcore.org/wiki/classic-installation  
+https://github.com/azerothcore/azerothcore-wotlk  
+
+## TC(TrinityCore)
+https://www.trinitycore.org/  
+https://trinitycore.info/  
+
